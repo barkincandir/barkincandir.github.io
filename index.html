@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From -BÇ-</title>
+
+
+    <meta name="description" content="Motosiklet sahibinin acil durum iletişim ve sağlık bilgileri.">
+    <link rel="icon" type="image/png" href="assets/favicon.png">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <h1>BARKIN ÇANDIR</h1>
+
+        <ul class="info-list">
+            <li><strong>Telefon:</strong> <a href="tel:+905079069445">+90 507 906 94 45</a></li>
+            <li><strong>Kan Grubu:</strong> AB Rh-</li>
+            <li><strong>Instagram:</strong>
+                <a href="https://instagram.com/barkin_candir" target="_blank" rel="noopener">
+                    barkin_candir
+                </a>
+            </li>
+        </ul>
+
+        <button id="call-btn">📞 Ara</button>
+    </main>
+
+    <script>
+
+        document.getElementById('call-btn')
+            .addEventListener('click', () =>
+                window.location.href = 'tel:+905079069445');
+    </script>
+</body>
+
+</html>
